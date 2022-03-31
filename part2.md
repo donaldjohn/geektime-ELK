@@ -3026,8 +3026,12 @@ POST employees/_search
     }
   }
 }
-```# 聚合分析的原理及精准度问题
+```
+
+
+# 聚合分析的原理及精准度问题
 ## 课程demo
+
 ```
 DELETE my_flights
 PUT my_flights
@@ -3983,7 +3987,7 @@ POST _ingest/pipeline/_simulate
           """
         }
       },
-
+    
       {
         "set":{
           "field": "views",
